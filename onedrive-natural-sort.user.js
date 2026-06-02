@@ -4,6 +4,11 @@
 // @version      2.2.0
 // @description  Sort OneDrive native RenderListDataAsStream responses with numeric/natural order.
 // @author       ShaddockNH3
+// @license      MIT
+// @homepageURL  https://github.com/ShaddockNH3/OneDrive-Natural-Sort
+// @supportURL   https://github.com/ShaddockNH3/OneDrive-Natural-Sort/issues
+// @updateURL    https://raw.githubusercontent.com/ShaddockNH3/OneDrive-Natural-Sort/main/onedrive-natural-sort.user.js
+// @downloadURL  https://raw.githubusercontent.com/ShaddockNH3/OneDrive-Natural-Sort/main/onedrive-natural-sort.user.js
 // @match        https://onedrive.live.com/*
 // @match        https://*.sharepoint.com/*
 // @match        https://*.my.sharepoint.com/*

@@ -11,12 +11,15 @@
 - 拦截 OneDrive 原生 `RenderListDataAsStream` 数据响应
 - 在 OneDrive 原生虚拟列表渲染前改写数据顺序，不创建额外文件列表页面
 
-## 安装
+## 从 GitHub 安装
 
 1. 在 Chrome 或 Edge 安装 Tampermonkey。
 2. 如果使用 Edge，打开扩展详情页并启用 `允许用户脚本`。Tampermonkey 面板顶部不应再提示这一步。
-3. 打开 `onedrive-natural-sort.user.js`。
-4. 复制脚本内容，新建一个 Tampermonkey 脚本并粘贴保存。
+3. 打开脚本安装链接：
+
+   <https://raw.githubusercontent.com/ShaddockNH3/OneDrive-Natural-Sort/main/onedrive-natural-sort.user.js>
+
+4. Tampermonkey 会自动打开安装页面，点击安装。
 5. 刷新 OneDrive 页面。
 
 ## 使用
@@ -38,3 +41,11 @@ OneDrive 新版列表是虚拟列表，只改 DOM 会变成局部排序。本脚
 ## 注意
 
 这是对 OneDrive 内部接口的用户脚本级改写。微软如果调整 `RenderListDataAsStream` 的响应结构、请求方式或虚拟列表逻辑，脚本可能需要更新。
+
+## 开发
+
+语法检查：
+
+```powershell
+node --check .\onedrive-natural-sort.user.js
+```
