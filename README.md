@@ -17,7 +17,7 @@
 2. 如果使用 Edge，打开扩展详情页并启用 `允许用户脚本`。Tampermonkey 面板顶部不应再提示这一步。
 3. 打开脚本安装链接：
 
-   <https://raw.githubusercontent.com/ShaddockNH3/OneDrive-Natural-Sort/main/onedrive-natural-sort.user.js>
+   [https://github.com/ShaddockNH3/OneDrive-Natural-Sort/raw/refs/heads/main/onedrive-natural-sort.user.js](https://github.com/ShaddockNH3/OneDrive-Natural-Sort/raw/refs/heads/main/onedrive-natural-sort.user.js)
 
 4. Tampermonkey 会自动打开安装页面，点击安装。
 5. 刷新 OneDrive 页面。
